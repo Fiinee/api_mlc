@@ -5,7 +5,7 @@ import cors from "cors";
 const app = express();
 
 app.use(cors({
-  origin: "*",        // для учебного проекта МОЖНО
+  origin: "*",        
   methods: ["POST"],
   allowedHeaders: ["Content-Type"],
 }));
